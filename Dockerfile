@@ -119,3 +119,5 @@ RUN cd $WORKSPACE && \
     make pycaffe && \
     export PATH=$(pwd)/build/tools:$PATH && \
     export PYTHONPATH=$(pwd)/python:$PYTHONPATH
+
+COPY . $WORKSPACE
